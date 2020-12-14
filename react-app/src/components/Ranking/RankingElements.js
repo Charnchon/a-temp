@@ -12,6 +12,9 @@ export const RankingComponents = styled.div`
     font-weight: bold;
     margin: 50px;
   }
+  img {
+    z-index: -999;
+  }
 `
 
 export const RankingDetails = styled.div`

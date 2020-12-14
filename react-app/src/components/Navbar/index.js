@@ -12,16 +12,16 @@ const Navbar = () => {
         <Bars />
         <NavMenu>
           <NavLink to="/MAP" activeStyle>
-            MAP
+            <a>MAP</a>
           </NavLink>
           <NavLink to="/REALTIME" activeStyle>
-            REAL TIME
+            <a>REAL TIME</a>
           </NavLink>
           <NavLink to="/GRAPH" activeStyle>
-            GRAPH
+            <a>GRAPH</a>
           </NavLink>
           <NavLink to="/RANKING" activeStyle>
-            RANKING
+            <a>RANKING</a>
           </NavLink>
         </NavMenu>
         {/* <NavBtn>

@@ -20,6 +20,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-scrollspy-nav": "^1.2.4",
     "react-timeseries-charts": "^0.16.1",
     "redux": "^4.0.5",
     "styled-components": "^5.2.1",
