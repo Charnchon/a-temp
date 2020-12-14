@@ -44,7 +44,7 @@ class Graph extends React.Component {
       .then((res) => res.json())
       .then((json) => {
         const d = {
-          data: json.results[1].series[0].values,
+          data: json.results[1].series[0].values
         }
         console.log(d)
         const series = {
@@ -63,7 +63,6 @@ class Graph extends React.Component {
     console.log(this.state.series)
     let series1 = this.state.series
     let tempSeries = this.state.series
-    let series = series1
     window.series = series1
 
     const style = styler([
