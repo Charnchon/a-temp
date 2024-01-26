@@ -21,10 +21,6 @@ const ContentWrap = styled.div`
 function App() {
   return (
     <>
-<<<<<<< HEAD
-
-=======
->>>>>>> b3d74020c8ab5a9ea2d48d8d28daf4a943b10dd1
       <TempValueContext>
         <Connection />
         <PageContainer>
